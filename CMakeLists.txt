@@ -4,4 +4,5 @@ project(CSC656_CP4)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CSC656_CP4
-        vecadd_cpu.cpp)
+        vecadd_cpu.cpp
+        vecadd_gpu_1t.cu)
