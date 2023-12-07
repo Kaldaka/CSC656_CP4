@@ -29,6 +29,7 @@ int main()
     int N = 1<<29; // 512M elements
     int blockSize = 256;
     int numBlocks = (N + blockSize - 1) / blockSize;
+    std::cout << "number of blocks: " << numBlocks << std::endl;
     float *x, *y;
 
     // Allocate Unified Memory – accessible from CPU or GPU
